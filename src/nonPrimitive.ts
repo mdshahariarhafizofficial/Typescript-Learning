@@ -19,9 +19,18 @@ let person: {
 let person1: {
     name: string;
     age: number;
-    isMarried: boolean;
+    isMarried?: boolean;
 } = {
     name: 'moqless',
     age: 56,
-    isMarried: true,
+}
+let person2: {
+    name: string;
+    brand: "RM",
+    age: number;
+    isMarried?: boolean;
+} = {
+    name: 'rahim',
+    age: 56,
+    brand: 'RM'
 }
