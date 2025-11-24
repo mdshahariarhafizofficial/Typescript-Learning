@@ -25,3 +25,7 @@ const user2 : User = {
     age: 23,
     isMarried: false,
 }
+
+type AddFun = (n1: number, n2: number) => number;
+
+const addFun : AddFun = (n1, n2) => n1+n2;
